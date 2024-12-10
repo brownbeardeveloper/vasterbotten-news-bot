@@ -29,6 +29,6 @@ filtered_titles = [h1.text for h1 in h1_elements if not h1.text.isupper()]
 
 # Print the text of each <h1> element
 for h1 in filtered_titles:
-    print(h1.text)
+    print(h1)
 
 driver.quit()
